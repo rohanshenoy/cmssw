@@ -77,6 +77,8 @@ import L1Trigger.L1THGCalUtilities.clustering2d as clustering2d
 import L1Trigger.L1THGCalUtilities.clustering3d as clustering3d
 import L1Trigger.L1THGCalUtilities.selectors as selectors
 import L1Trigger.L1THGCalUtilities.customNtuples as ntuple
+#Need layer info for clustering
+process.ntuple_multiclusters.FillLayerInfo = True
 process.ntuple_triggercells.FillSimEnergy=True
 
 
